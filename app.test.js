@@ -1,8 +1,8 @@
 // app.test.js — Les tests automatiques
 const { additionner, direBonjour } = require('./app');
 // Test 1 : L'addition fonctionne-t-elle ?
-test('additionner(3, 3) doit retourner 5', () => {
-expect(additionner(3, 3)).toBe(5);
+test('additionner(2, 3) doit retourner 5', () => {
+expect(additionner(2, 3)).toBe(5);
 });
 // Test 2 : Le message de bienvenue est-il correct ?
 test('direBonjour("Alice") doit retourner "Bonjour, Alice !"', () => {
